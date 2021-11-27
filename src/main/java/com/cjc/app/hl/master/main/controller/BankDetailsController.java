@@ -31,7 +31,6 @@ public class BankDetailsController {
 	@Autowired
 	BankDetailsServiceI hs;
 	
-	System.out.println("Controller class of Bank Details");
 	
 	@GetMapping(value = "/getBankDetails")
 	public List<BankDetails> getAllBankDetails()
